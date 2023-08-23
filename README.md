@@ -58,7 +58,7 @@ The project automates many functionalities using triggers, functions, and proced
   * adds artistID to salesT from inventoryartt
   
   Here's a flowchart for the same:
-    ![flowchart](sales_entryT.png)
+    ![flowchart](flowchart.png)
 
 ### 2. Functions
 * `totalPurchase()`: This function returns the total purchase made by a customer using their customerID.
