@@ -35,6 +35,7 @@ The database schema consists of 17 tables with primary and foreign key constrain
 * partnerOrg_auditT
 
 The corresponding ER Diagram is displayed below:
+![ERD](ERD.png)
 
 It also includes indexes and views for user-level security:
 
@@ -55,6 +56,8 @@ The project automates many functionalities using triggers, functions, and proced
   * inserts a new entry into ledgert
   * adds transactionid to salest from ledgert
   * adds artistID to salesT from inventoryartt
+    Here's a flowchart for the same:
+    ![flowchart](sales_entryT.png)
 
 ### 2. Functions
 * `totalPurchase()`: This function returns the total purchase made by a customer using their customerID.
