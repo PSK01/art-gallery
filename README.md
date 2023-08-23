@@ -56,7 +56,8 @@ The project automates many functionalities using triggers, functions, and proced
   * inserts a new entry into ledgert
   * adds transactionid to salest from ledgert
   * adds artistID to salesT from inventoryartt
-    Here's a flowchart for the same:
+  
+  Here's a flowchart for the same:
     ![flowchart](sales_entryT.png)
 
 ### 2. Functions
